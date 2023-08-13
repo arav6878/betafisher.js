@@ -25,7 +25,7 @@ var game = new engine();
 // initialise chessboard
 const board = new Chessboard(document.getElementById("board"), {
   position: game.getFEN(),
-  sprite: { url: "/betafisher.js/assets/images/chessboard-sprite-staunty.svg" },
+  sprite: { url: "//betafisher.js/assets/images/chessboard-sprite-staunty.svg" },
   animationDuration: 200,
 });
 
